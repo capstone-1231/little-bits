@@ -8,28 +8,40 @@
 </head>
 <body>
     <h1>Home</h1>
+<<<<<<< HEAD
     <section class="home-intro">\
             <!--background image -->
 
+=======
+    <section class="home-intro">
+>>>>>>> a406559208ada17780acc69855e0672847729065
     <h2>Little Bits therapeutic Riding association</h2>
     <p>Little Bits Therapeutic Riding Association, We have been serving Edmonton since 1975.Each year, up to 195 riders benefit from our winter, spring and fallprogram and summer riding week.</p>
     </section>
     <section>
         <h2>Program</h2>
         <div class="">
+<<<<<<< HEAD
             <!-- images to be added in the cards -->
+=======
+>>>>>>> a406559208ada17780acc69855e0672847729065
             <h3>Horse Back Riding</h3>
             <p>Experience the thrill of horseback riding at our facility, where every hoofbeat is a symphony of adventure and every ride is a journey into the heart of excitement!</p>
            <button><a href="program_profile.php">Read more</a></button>
         </div>
+<<<<<<< HEAD
         
         <div class="">
             <!-- images to be added in the cards -->
+=======
+        <div class="">
+>>>>>>> a406559208ada17780acc69855e0672847729065
             <h3>New experiences </h3>
             <p>Experience the thrill of horseback riding at our facility, where every hoofbeat is a symphony of adventure and every ride is a journey into the heart of excitement!</p>
            <button><a href="program_profile.php">Read more</a></button>
         </div>
         <div class="">
+<<<<<<< HEAD
             <!-- images to be added in the cards -->
             <h3>volunteer</h3>
             <p>At our facility, we believe in the power of volunteers who generously dedicate their time and passion to make a difference in the lives of kids in need.</p>
@@ -51,5 +63,12 @@
     <?php
     include("footer.php")
     ?>
+=======
+            <h3>Horse Back Riding</h3>
+            <p>Experience the thrill of horseback riding at our facility, where every hoofbeat is a symphony of adventure and every ride is a journey into the heart of excitement!</p>
+           <button><a href="program_profile.php">Read more</a></button>
+        </div>
+    </section>
+>>>>>>> a406559208ada17780acc69855e0672847729065
 </body>
 </html>
