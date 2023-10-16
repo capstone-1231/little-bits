@@ -27,40 +27,33 @@
 
 	<header id="masthead" class="site-header">
 		<div class="site-branding">
-		<img src="images/" alt="">
-		
+			<?php
+			the_custom_logo();
+			if ( is_front_page() && is_home() ) :
+				?>
+				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+				<?php
+			else :
+				?>
+				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
+				<?php
+			endif;
+			$_s_description = get_bloginfo( 'description', 'display' );
+			if ( $_s_description || is_customize_preview() ) :
+				?>
+				<p class="site-description"><?php echo $_s_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p>
+			<?php endif; ?>
+		</div><!-- .site-branding -->
 
 		<nav id="site-navigation" class="main-navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"></button>
-				<ul class="nav-items">
-					<li><a href="index.php">HOME</a></li>
-					<li><a href="about.php">ABOUT</a></li>
-					<ul>
-						<li><a href="program_profile.php">PROGRAM PROFILE</a></li>
-						<li><a href="facility_grounds.php">FACILITY & GROUNDS</a></li>
-						<li><a href="staff.php">STAFF</a></li>
-						<li><a href="contact.php">CONTACT US</a></li>
-					</ul>
-					<li><a href="rider.php">RIDERS</a></li>
-					<ul class="dropdown-list">
-						<li><a href="rider_application.php">RIDER APPLICATION</a></li>
-					</ul>
-					<li><a href="volunteer.php">VOLUNTEERS</a></li>
-					<ul class="dropdown-list">
-						<li><a href="volunteer_application.php">VOLUNTEER APPLICATION</a></li>
-					</ul>
-					<li><a href="our_horses.php">OUR HORSES</a></li>
-					<ul class="dropdown-list">
-						<li><a href="retired_horses.php">RETIRED HORSES</a></li>
-						<li><a href="in_memory.php">IN MEMORY OF</a></li>
-					</ul>
-					<li><a href="classes_schedules.php">CLASSES & SCHEDULES</a></li>
-					<ul class="dropdown-list">
-						<li><a href="events.php">EVENTS</a></li>
-						<li><a href="newsletter.php">NEWSLETTER</a></li>
-					</ul>
-					<li><a href="sponsers.php">SPONSERS</a></li>
-				</ul>
+			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'littlebits' ); ?></button>
+			<?php
+			wp_nav_menu(
+				array(
+					'theme_location' => 'menu-1',
+					'menu_id'        => 'primary-menu',
+				)
+			);
+			?>
 		</nav><!-- #site-navigation -->
-		</div>
 	</header><!-- #masthead -->
