@@ -1,15 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php
+/*
+Template Name: Custom Volunteer Application Template
+*/
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Volunteer Application</title>
-</head>
-
-<body>
-    <main>
-
+get_header(); ?>
+<main class="volunteerapp-main">
         <form>
             <h2>Volunteer Application</h2>
 
@@ -153,8 +148,10 @@
 
             <input type="submit" value="Submit">
         </form>
-
-    </main>
+        </main>
+<?php
+get_footer();
+?>
 </body>
 
 </html>
