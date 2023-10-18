@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
 /**
  * The main template file
@@ -18,9 +17,8 @@
  ?> 
 <main id="primary" class="site-main">
 <h1>Home</h1>
-    <section class="home-intro">\
+    <section class="home-intro">
             <!--background image -->
-=======
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -35,7 +33,6 @@
 
 
     <section class="home-intro">
->>>>>>> 9fb7195104a249743141e02958837d057b2013e8
 
     <h2>Little Bits therapeutic Riding association</h2>
     <p>Little Bits Therapeutic Riding Association, We have been serving Edmonton since 1975.Each year, up to 195 riders benefit from our winter, spring and fallprogram and summer riding week.</p>
