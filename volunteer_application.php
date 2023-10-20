@@ -11,14 +11,17 @@
     <form>
         <h2>Volunteer Application</h2>
 
-        <label for="name">*First and last name </label>
-        <input type="text" id="name" name="name"><br>
+        <label for="first_name">*First Name</label>
+        <input type="text" id="first_name" name="first_name"><br>
+
+        <label for="last_name">*First Name</label>
+        <input type="text" id="last_name" name="last_name"><br>
 
         <label for="address">Address:</label>
         <input type="text" id="address" name="address"><br>
 
         <label for="address">Postal Code:</label>
-        <input type="text" id="postcode" name="postcode"><br>
+        <input type="text" id="postal_code" name="postal_code"><br>
 
         <label for="email">Email Address</label> 
         <input type="email" id="email" name="email"><br>

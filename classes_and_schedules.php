@@ -103,6 +103,4 @@
             <p>We wish to thank all of our generous donors and sponsors for enabling us to make this program possible!</p>
         </div>
     </main>
-</body>
-
-</html>
+    <?php wp_footer(); ?>

@@ -25,20 +25,18 @@
 			</div>
 			<div class="footer-card-3">
 				<img src="<?php bloginfo('template_directory');?>/images/little_bits_social_media/facebook_1384005.png" alt="facebook image">
-				<img src="<?php bloginfo('template_directory');?>/images/little_bits_social_media/instagram_1384015.png" alt="facebook image">
-				<img src="<?php bloginfo('template_directory');?>/images/little_bits_social_media/twitter_1384017.png" alt="facebook image">
-				<img src="<?php bloginfo('template_directory');?>/images/little_bits_social_media/youtube_1384012.png" alt="facebook image">
-			</div>
-
-				<img src="/images/little_bits_social_media/facebook_1384005.png" alt="facebook image">
-			</div>
+				<img src="<?php bloginfo('template_directory');?>/images/little_bits_social_media/instagram_1384015.png" alt="instagram image">
+				<img src="<?php bloginfo('template_directory');?>/images/little_bits_social_media/twitter_1384017.png" alt="twitter image">
+				<img src="<?php bloginfo('template_directory');?>/images/little_bits_social_media/youtube_1384012.png" alt="youtube image">
+			
 
 			
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
-<?php wp_footer(); ?>
-
 </body>
 </html>
+<?php wp_footer(); ?>
+
+

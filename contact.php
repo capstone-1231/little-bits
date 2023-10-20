@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+
     <main class="contact=main">
         <h2>Contact us</h2>
         <div>
@@ -31,7 +24,9 @@
             <p>Volunteer Coordinator</p>
             <p>Marielle L: littlebitsvolunteer@gmail.com</p>
         </div>
+        <?php
+    echo do_shortcode('[contact-form-7 id="9128fec" title="Untitled"]');
+?>
         <!--editiable contact location, mailing, administrator section along with contact form-->
     </main>
-</body>
-</html>
+    <?php wp_footer(); ?>

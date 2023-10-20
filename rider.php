@@ -68,16 +68,16 @@
                     <input type="text" name="name">
                 </div>
                 <div>
-                    <label for="last-name">Last Name</label>
-                    <input type="text" name="last-name">
+                    <label for="last_name">Last Name</label>
+                    <input type="text" name="last_name">
                 </div>
                 <div>
                     <label for="disablity">Disiabiity</label>
                     <input type="text" name="disability">
                 </div>
                 <div>
-                    <label for="date-of-birth">Date of Birth</label>
-                    <input type="text" name="date-of-birth">
+                    <label for="date_of_birth">Date of Birth</label>
+                    <input type="text" name="date_of_birth">
                 </div>
                 <div>
                     <label for="height">Height in feet/inches</label>
@@ -94,38 +94,38 @@
 
                 <div class="">
                 <p>*Is a Personal Aid Required?</p>
-                <input type="radio" name="personal-aid">
+                <input type="radio" name="personal_aid">
                 <label for="yes">Yes</label>|
-                <input type="radio" name="personal-aid">
+                <input type="radio" name="personal_aid">
                 <label for="no">No</label>|
                 </div>
                 <div>
                     <p>Preferred Day:</p>
                     <p>Whitemud Equine Centre</p>
-                    <input type="checkbox" name="preferred-day" >
-                    <label for="sunday-am">Sunday AM</label>
-                    <input type="checkbox" name="preferred-day" >
+                    <input type="checkbox" name="preferred_day" >
+                    <label for="sunday_am">Sunday AM</label>
+                    <input type="checkbox" name="preferred_day" >
                     <label for="sunday-pm">Sunday PM</label>
-                    <input type="checkbox" name="preferred-day" >
+                    <input type="checkbox" name="preferred_day" >
                     <label for="monday-am-adult">Monday AM(Adult)</label>
-                    <input type="checkbox" name="preferred-day" >
+                    <input type="checkbox" name="preferred_day" >
                     <label for="tuseday-am-adult">Tuesday AM(Adult)</label>
-                    <input type="checkbox" name="preferred-day" >
+                    <input type="checkbox" name="preferred_day" >
                     <label for="tuesday-pm">Tuesday PM</label>
-                    <input type="checkbox" name="preferred-day" >
+                    <input type="checkbox" name="preferred_day" >
                     <label for="wednesday-Pm">Wednesday PM</label>
                 </div>
             </div>
             <div class="emergency-contact">
             <div>
                 
-                    <label for="emergenecy-first-name">First Name</label>
-                    <input type="text" name="emergency-first-name">
+                    <label for="emergency_first_name">First Name</label>
+                    <input type="text" name="emergency_first_name">
                 </div>
                 <div>
                 
-                <label for="emergenecy-last-name">Last Name</label>
-                <input type="text" name="emergency-last-name">
+                <label for="emergency_last_name">Last Name</label>
+                <input type="text" name="emergency_last_name">
             </div>
             <div>
                 
@@ -138,19 +138,19 @@
                 <input type="text" name="city">
             </div>
             <div>
-                <label for="postal-code">Postal Code</label>
-                <input type="text" name="postal-code">
+                <label for="postal_code">Postal Code</label>
+                <input type="text" name="postal_code">
             </div>
             <div>
                 <label for="email">Email Address</label>
                 <input type="text" name="email">
             </div>
             <div>
-                <label for="phone-number">Phone Number</label>
-                <input type="text" name="phone-number">
+                <label for="phone_number">Phone Number</label>
+                <input type="text" name="phone_number">
             </div>  <div>
-                <label for="secondary-phone-number">Secondary Phone Number</label>
-                <input type="text" name="secondary-phone-number">
+                <label for="secondary_phone_number">Secondary Phone Number</label>
+                <input type="text" name="secondary_phone_number">
             </div>
             <div>
                 <label for="questions">Questions or comments</label>
@@ -162,5 +162,4 @@
             </form>
         </div>
     </main>
-</body>
-</html>
+    <?php wp_footer(); ?>
