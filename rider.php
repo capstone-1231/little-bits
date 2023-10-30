@@ -37,8 +37,12 @@ get_header(); ?>
                 setting. The horses are the therapy equipment and their movement affects each rider
                 in a positive, non-clinical manner.</p>
         </div>
+        <!--this is where we add the editable images from wordpress-->
         <div>
-            <!--this is where we add the editable images from wordpress-->
+            <?php $image_1 = get_field('image_1'); ?>
+            <?php if ($image_1): ?>
+                <img src="<?php echo $image_1['url']; ?>" alt="<?php echo $image_1['alt']; ?>" />
+            <?php endif; ?>
         </div>
     </div>
     <div class="rider-application-intro">

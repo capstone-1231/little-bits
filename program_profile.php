@@ -19,6 +19,12 @@ get_header(); ?>
             group of the WELCA facility and pays significant funds for the use of the arena and lesson horses.</p>
         <p>Class schedules consist of a 10-week winter session, a 10-week spring session and a 10-week fall session.
             Classes are run on Monday and Tuesday mornings for adults.</p>
+        <div>
+            <?php $image_1 = get_field('image_1'); ?>
+            <?php if ($image_1): ?>
+                <img src="<?php echo $image_1['url']; ?>" alt="<?php echo $image_1['alt']; ?>" />
+            <?php endif; ?>
+        </div>
     </div>
     <div class="program-profile-flex-2">
         <div class="program-profile-card">

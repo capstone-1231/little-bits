@@ -14,6 +14,12 @@ get_header(); ?>
                 with people. They are quiet and well trained. Please scroll down to see our horses that we are
                 currently using in our program and read a bit of history on them.</p>
         </div>
+        <div>
+            <?php $image_1 = get_field('image_1'); ?>
+            <?php if ($image_1): ?>
+                <img src="<?php echo $image_1['url']; ?>" alt="<?php echo $image_1['alt']; ?>" />
+            <?php endif; ?>
+        </div>
     </div>
     <div>
         <div>

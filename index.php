@@ -66,12 +66,7 @@ get_header(); ?>
                 </section>
                 <section class="reviews">
                     <div>
-
-                    </div>
-                    <div>
-
-                    </div>
-                    <div>
+                        <?php echo do_shortcode('[WPCR_SHOW POSTID="ALL" NUM="5" PAGINATE="1" PERPAGE="5" SHOWFORM="1" HIDEREVIEWS="0" HIDERESPONSE="0" SNIPPET="" MORE="" HIDECUSTOM="0"]'); ?>
 
                     </div>
                 </section>

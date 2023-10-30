@@ -9,6 +9,12 @@ get_header(); ?>
     <img src="" alt="">
     <h2>In Memory Of The Horses That Have Touched Our Lives and Our Hearts</h2>
     <div>
+            <?php $image_1 = get_field('image_1'); ?>
+            <?php if ($image_1): ?>
+                <img src="<?php echo $image_1['url']; ?>" alt="<?php echo $image_1['alt']; ?>" />
+            <?php endif; ?>
+        </div>
+    <div>
         <div>
             <p>As former staff with hooves, the horses below are some of the retired horses that have worked with the
                 Little Bits program.</p>

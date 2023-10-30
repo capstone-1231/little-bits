@@ -14,6 +14,12 @@ get_header(); ?>
                 Little Bits program.</p>
             <p>We are thankful for their service and dedication and cherish each one for their service.</p>
         </div>
+        <div>
+            <?php $image_1 = get_field('image_1'); ?>
+            <?php if ($image_1): ?>
+                <img src="<?php echo $image_1['url']; ?>" alt="<?php echo $image_1['alt']; ?>" />
+            <?php endif; ?>
+        </div>
     </div>
     <div>
         <div>
