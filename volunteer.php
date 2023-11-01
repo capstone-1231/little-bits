@@ -1,14 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php
+/*
+Template Name: Custom Volunteer Template
+*/
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Volunteers</title>
-</head>
-
-<body>
-    <main>
+get_header(); ?>
+<main class="volunteer-main">
         <h2>Get Involved</h2>
         <div>
             <p>Volunteers are an integral part of the program at Little Bits. They are indeed the backbone of the
@@ -83,9 +79,10 @@
                 <li>Recognize and work around your busy schedule</li>
             </ul>
         </div>
-
-    </main>
-
+        </main>
+<?php
+get_footer();
+?>
 </body>
 
 </html>

@@ -4,7 +4,6 @@ get_header(); // Include the header
 
 // Include the plugin functionality
 ?>
-// Your custom template content goes here
 
 <div class="newsletter-main">
     <h2>Newsletter</h2>
@@ -50,3 +49,19 @@ get_footer(); // Include the footer
 
 
 ?>
+
+/*
+Template Name: Custom Newsletter Template
+*/
+
+get_header(); ?>
+
+<main class="newsletter-main">
+    <!--editiable contact location, mailing, administrator section along with contact form-->
+</main>
+<?php
+get_footer();
+?>
+</body>
+
+</html>
