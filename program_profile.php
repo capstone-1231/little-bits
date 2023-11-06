@@ -43,6 +43,9 @@ get_header(); ?>
                 appropriate spot becomes available for them. Riders are placed according to age and ability. </p>
         </div>
     </div>
+
+   
+
 </main>
 <?php
 get_footer();

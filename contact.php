@@ -8,29 +8,37 @@ get_header(); ?>
 <main class="contact-main">
     <h2>Contact us</h2>
     <div>
-        <h3>Address</h3>
-        <p>Whitemud Equine Learning Centre </p>
-        <p>Riding Arena</p>
-        <p>12510 Fox Drive NW</p>
-        <p>Edmonton, AB, Canada </p>
-        <p>T6G 2L6</p>
+    <?php
+        $args = array(
+            'post_type' => 'contact_us',
+            'posts_per_page' => -1,
+        );
+
+        $contact_us_query = new WP_Query($args);
+
+        if ($contact_us_query->have_posts()):
+            while ($contact_us_query->have_posts()):
+                $contact_us_query->the_post();
+
+                $title = get_field('title');
+                $description = get_field('description');
+
+                // Display the custom field values
+                echo '<h3>' . $title . '</h3>';
+                echo '<p>' . $description . '</p>';
+
+            endwhile;
+            wp_reset_postdata();
+        else:
+            echo 'No contact_us posts found.';
+        endif;
+        ?>
     </div>
     <div>
-        <h3>Mailing</h3>
-        <p>Whitemud Equine Learning Centre</p>
-        <p>Riding Arena</p>
-        <p>12510 Fox Drive NW</p>
-        <p>Edmonton, AB, Canada </p>
-        <p>T6G 2L6</p>
+    <?php
+        echo do_shortcode('[contact-form-7 id="c3e77eb" title="Contact form 1"]');
+        ?>
     </div>
-    <div>
-        <h3>Administrator</h3>
-        <p>Riding Administrator</p>
-        <p>Linda R : info@littlebits.ca</p>
-        <p>Volunteer Coordinator</p>
-        <p>Marielle L: littlebitsvolunteer@gmail.com</p>
-    </div>
-    <!--editiable contact location, mailing, administrator section along with contact form-->
 </main>
 <?php
 get_footer();

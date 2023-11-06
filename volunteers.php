@@ -28,9 +28,12 @@ get_header(); ?>
                         horses before and after lessons or leading and side-walking during the lessons. Commitment is
                         approximately 2 hours per week.</p>
                 </div>
-                <div>
-                    <img src="" alt="">
-                </div>
+                <div><!--adding editable image -->
+            <?php $image_1 = get_field('image_1'); ?>
+            <?php if ($image_1): ?>
+                <img src="<?php echo $image_1['url']; ?>" alt="<?php echo $image_1['alt']; ?>" />
+            <?php endif; ?>
+        </div>
             </div>
             <div>
                 <div>
@@ -39,9 +42,12 @@ get_header(); ?>
                         "Communications/ Marketing Committee". Complete terms of reference for each committee are
                         available by contacting us at: 780-476-1233</p>
                 </div>
-                <div>
-                    <img src="" alt="">
-                </div>
+                <div><!--adding editable image -->
+            <?php $image_2 = get_field('image_2'); ?>
+            <?php if ($image_2): ?>
+                <img src="<?php echo $image_2['url']; ?>" alt="<?php echo $image_2['alt']; ?>" />
+            <?php endif; ?>
+        </div>
             </div>
             <div>
                 <div>
@@ -50,9 +56,12 @@ get_header(); ?>
                         period. Shifts are 4 - 6 hours long. The work is easy, and the money earned for Little Bits is
                         awesome!</p>
                 </div>
-                <div>
-                    <img src="" alt="">
-                </div>
+                <div><!--adding editable image -->
+            <?php $image_3 = get_field('image_3'); ?>
+            <?php if ($image_3): ?>
+                <img src="<?php echo $image_3['url']; ?>" alt="<?php echo $image_3['alt']; ?>" />
+            <?php endif; ?>
+        </div>
             </div>
             <div>
                 <div>
@@ -60,9 +69,12 @@ get_header(); ?>
                     <p>These are fundraisers that Little Bits may be involved in throughout the year. Examples of past
                         events are: Pancake Breakfast, 50/50 Raffle at Edmonton Prospects Baseball Games, etc...</p>
                 </div>
-                <div>
-                    <img src="" alt="">
-                </div>
+                <div><!--adding editable image -->
+            <?php $image_4 = get_field('image_4'); ?>
+            <?php if ($image_4): ?>
+                <img src="<?php echo $image_4['url']; ?>" alt="<?php echo $image_4['alt']; ?>" />
+            <?php endif; ?>
+        </div>
             </div>
         </div>
         <div>

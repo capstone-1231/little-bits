@@ -50,19 +50,45 @@ get_header(); ?>
     <div>
         <div>
             <h3>2020</h3>
-            <!-- Image Carousel -->
+            <!-- Image Slider -->
+            <?php
+            echo do_shortcode('[smartslider3 slider="6"]');
+            ?>
         </div>
         <div>
             <h3>2019</h3>
-            <!-- Image Carousel -->
+            <!-- Image Slider -->
+            <?php
+            echo do_shortcode('[smartslider3 slider="5"]');
+            ?>
         </div>
         <div>
             <h3>2017</h3>
-            <!-- Image Carousel -->
+            <!-- Image Slider -->
+            <?php
+            echo do_shortcode('[smartslider3 slider="8"]');
+            ?>
         </div>
         <div>
             <h3>2016</h3>
-            <!-- Image Carousel -->
+            <!-- Image Slider -->
+            <?php
+            echo do_shortcode('[smartslider3 slider="9"]');
+            ?>
+        </div>
+        <div>
+            <h3>2011</h3>
+            <!-- Image Slider -->
+            <?php
+            echo do_shortcode('[smartslider3 slider="10"]');
+            ?>
+        </div>
+        <div>
+            <h3>Other Photos</h3>
+            <!-- Image Slider -->
+            <?php
+            echo do_shortcode('[smartslider3 slider="11"]');
+            ?>
         </div>
     </div>
 </main>
